@@ -1,0 +1,13 @@
+    body{
+        background-image: linear-gradient(150deg,#F8EBF5, #fd94e5); 
+        background-attachment:fixed ;
+        display: flex;
+        justify-content: center;
+    } 
+    .pag-inicial{
+        background-color: #F8EBF5;
+    }
+
+    .pag-inicial img{
+        width: 250px;
+    }
