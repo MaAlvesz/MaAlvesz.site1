@@ -1,13 +1,55 @@
     body{
-        background-image: linear-gradient(150deg,#F8EBF5, #fd94e5); 
+        background-image: linear-gradient(150deg,#a5bef5fd, #F7B6D6); 
         background-attachment:fixed ;
         display: flex;
         justify-content: center;
+        align-items: center;
+        font-family: Helvetica, sans-serif;
     } 
     .pag-inicial{
         background-color: #F8EBF5;
+        padding: 80px;
     }
 
     .pag-inicial img{
         width: 250px;
+    }
+
+    .botoes a{
+        text-decoration: none; /*remover o sublinhado dos botoes*/
+        background-color: #a5bef5fd;
+        font-size: 20px;
+        color :#F8EBF5;
+        padding: 10px;
+        border-radius: 40px;
+
+
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .caixa-de-login{
+        background-color: #F8EBF5;
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+
+    .caixa-de-login input{
+        width: 200px;
+        height: 30px;
+        font-size: 1.1rem;
+
+        border-radius: 40px;
+        border: #773267 ;
+        border-width: 10px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+
     }
