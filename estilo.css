@@ -66,20 +66,30 @@
         width: 20%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        /* font-family: Helvetica, sans-serif; */
+
     }
 
     .usuario {
-        width: 20%;
+        width: 60%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: center;
+     
+    }
+
+    .usuario img{
+        width: 40%;
+        height: auto;
+        border-radius: 100%;
     }
 
     .logo-nome {
         display: flex;
-        justify-content: flex-start;
         align-items: center; 
     }
+
     .logo-nome img {
         width: 100%;
         height: auto;
@@ -93,4 +103,18 @@
 
     .musicas{
         width: 30%;
+    }
+
+    .opcoes-pag a{
+        display: flex;
+        text-decoration: none;  
+        flex-direction: column;  
+        justify-content: center;
+        line-height: 2.0;
+        font-family: Helvetica, sans-serif;
+        }
+
+    .opcoes-pag {
+        display: block;
+        justify-content: center;
     }
