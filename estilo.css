@@ -68,7 +68,6 @@
         flex-direction: column;
         align-items: center;
         font-family: Helvetica, sans-serif; 
-
     }
 
     .usuario {
@@ -79,6 +78,7 @@
         font-size: 55%;  
         color :#713348;
         margin-bottom: 10%;  
+       
     }
 
     .usuario img{
@@ -147,3 +147,19 @@
         height: auto;
         border-radius: 10%;
     }
+
+     .pesquisa input{
+        height: 30px;
+        width: 93%;
+        font-size: 1.1rem;
+
+        border-radius: 10px;
+        border: solid;
+        border-width: 1px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+        margin: 2%;            /* Espaçamento externo */
+
+     }
