@@ -3,6 +3,14 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+# Criar uma lista e usuarios e senha, depois vamos pegar no BD
+usuarios ={
+    'abelha' : 'zomzomzom',
+    'maria' : '2121',
+    'marina' : '12345',
+    'helo' : '54321'
+}
+
 # Definindo a rota principal do site
 @app.route('/')
 def home():
